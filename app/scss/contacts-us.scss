@@ -1,0 +1,36 @@
+.contacts-us {
+    background: url(../images/contacts-us-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 82px;
+    padding-bottom: 84px;
+
+    &__text {
+        font-family: $fonttitlebold;
+        font-size: 43px;
+        color: #fff;
+    }
+
+    &__btn-link {
+        font-family: $fonttitlebold;
+        color: #fff;
+        padding: 15px 42px;
+        background: $orange;
+        border-radius: 4px;
+        font-size: 16px;
+        transition: .4s all;
+
+        &:hover {
+            background: darken($orange, 4%);
+            transition: .4s all;
+        }
+
+    }
+}
+
+.contacts-us__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

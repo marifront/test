@@ -1,0 +1,28 @@
+.count__number {
+    font-size: 60px;
+    margin-bottom: 9px;
+}
+
+.count__text {
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+.counts {
+    font-family: $fonttitlebold;
+    color: $violet;
+}
+
+.counts__inner {
+    max-width: 948px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 132px;
+    padding-bottom: 134px;
+    margin: 0 auto;
+}
+
+.count__wrap {
+    text-align: center;
+}

@@ -1,0 +1,128 @@
+.footer {
+    background-color: #363636;
+    position: relative;
+    color: #fff;
+
+    a {
+        color: #fff;
+        font-family: $fontp, sans-serif;
+    }
+}
+
+.footer__contacts-wrap {
+    font-size: 14px;
+    font-family: $fontp;
+}
+
+.footer .menu__list-link,
+.footer__list-link {
+    transition: .4s all;
+
+    &:hover {
+        color: darken($orange, 4%);
+        transition: .4s all;
+    }
+}
+
+.menu__list-link,
+.footer__list-link,
+.footer__contacts-wrap span {
+    text-transform: uppercase;
+    font-family: $fontp, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+    line-height: 24px;
+
+}
+
+.footer__contacts-wrap span {
+    margin-right: 16px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 51px;
+    padding-bottom: 44px;
+
+
+}
+
+.footer__logo {
+    position: absolute;
+    right: 38px;
+    bottom: 61px;
+}
+
+
+.footer__title {
+    font-family: $fonttitlebold;
+    color: $orange;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 13px;
+    padding-left: 20px;
+
+    &:after {
+        content: '';
+        background: url(../images/footer-bottom-item.png);
+        width: 9px;
+        height: 10px;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0;
+        top: 3px;
+    }
+}
+
+.footer__bottom {
+    background: #252525;
+    text-align: center;
+    font-size: 10px;
+    font-family: $fontp, sans-serif;
+    color: #9b9b9b;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+
+    img {
+        display: inline-block;
+        margin: 0 5px;
+    }
+}
+
+// Social
+.social__header {
+    display: flex;
+    font-family: $fontp, sans-serif;
+
+}
+
+.social__icon {
+    padding: 10px;
+    background-color: #5634d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__info {
+    background-color: #7050e5;
+    padding: 13px 13px 12px;
+    width: 242px;
+
+
+    &-login {
+        margin-bottom: 3px;
+    }
+}
+
+.social__body-wrap {
+    background: #fff;
+}
+
+.social__wrap {
+    display: flex;
+    flex-direction: column;
+}

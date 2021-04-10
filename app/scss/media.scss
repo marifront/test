@@ -1,0 +1,377 @@
+@media(max-width:1600px) {
+    .header {
+        background: url(../images/bg-header.png);
+        background-repeat: no-repeat;
+        min-height: 810px;
+        background-size: cover;
+        position: relative;
+        background-position: top center;
+        overflow: hidden;
+    }
+}
+
+@media(max-width:1342px) {
+    .product__container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .product__info {
+        max-width: 50%;
+        padding-right: 50px;
+    }
+
+    .product__video {
+        max-width: 50%;
+    }
+
+
+}
+
+@media(max-width:1076px) {
+    .product__video-inner {
+        max-width: 300px;
+    }
+
+    .product__video-title {
+        font-size: 22px;
+    }
+}
+
+@media(max-width:1020px) {
+    .about-us__cards {
+        justify-content: space-between;
+    }
+
+    .about-us__inner {
+        max-width: 100%;
+    }
+
+    .about-us__title:after {
+        right: 0;
+    }
+
+    .about-us__title {
+        padding-right: 46px;
+    }
+}
+
+@media(max-width:894px) {
+    .about-us__card {
+        padding: 0 10px;
+    }
+}
+
+@media(max-width:880px) {
+    .footer__inner {
+        flex-wrap: wrap;
+    }
+
+    .social__wrap,
+    .menu__wrap,
+    .footer__wrap-links {
+
+        margin-right: 20px;
+    }
+}
+
+@media(max-width:868px) {
+    .social__wrap {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:860px) {
+    .about-us__cards {
+        justify-content: space-around;
+    }
+
+}
+
+@media(max-width:792px) {
+
+    .sliders__inner .slider__img {
+        display: none;
+    }
+
+    .about-us {
+        padding-top: 71px;
+        padding-bottom: 71px;
+
+    }
+
+    .about-us__title {
+        font-size: 55px;
+    }
+
+
+    .counts__inner {
+        max-width: 100%;
+        flex-direction: column;
+        padding-top: 71px;
+        padding-bottom: 71px;
+        margin: 0 auto;
+
+        .count__wrap {
+            margin-bottom: 20px;
+        }
+    }
+
+    .product__container {
+        flex-direction: column;
+        padding-top: 71px;
+        padding-bottom: 71px;
+    }
+
+    .product__info,
+    .product__video {
+        max-width: 100%;
+    }
+
+    .product__info-link {
+        margin-bottom: 30px;
+    }
+
+    .product__video-cover {
+        height: 100%;
+    }
+
+}
+
+
+@media(max-width:702px) {
+    .sliders__inner .slider__info {
+        width: 100%;
+
+    }
+
+    .header__top {
+        margin-bottom: 60px;
+    }
+
+    .header__top .menu__list-item+.menu__list-item {
+        margin-left: 0;
+    }
+
+    .header {
+        min-height: 700px;
+        background-size: 100% 150%;
+    }
+
+    .header.hidden {
+
+        &:after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            display: block;
+            position: fixed;
+            // background: rgba(0, 0, 0, 0.5);
+            background: rgba(95, 73, 206, 1);
+            ;
+            top: 0;
+            z-index: 2;
+        }
+    }
+
+    body.hidden {
+        overflow-y: hidden;
+    }
+
+
+    .header .menu {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: 150px;
+        z-index: 3;
+
+
+        .menu__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+
+        .menu__list-item {
+            margin: 0;
+        }
+    }
+
+    .menu.open {
+        display: block;
+        position: absolute;
+        right: 15px;
+
+        .menu__list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu__list-item+.menu__list-item {
+            margin: 0;
+        }
+    }
+
+    .header__top .burger-mobile {
+        display: block;
+    }
+
+    .burger-mobile.open .burger__item:before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+
+    .burger-mobile.open .burger__item:after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+
+    .burger-mobile.open .burger__item {
+        background: transparent;
+        width: 23px;
+    }
+}
+
+
+@media(max-width:651px) {
+    .footer__inner {
+        justify-content: space-around;
+    }
+
+
+    .footer__logo {
+        right: 15px;
+        bottom: 43px;
+    }
+
+}
+
+@media(max-width:634px) {
+    .sliders__inner {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:600px) {
+    .contacts-us__inner {
+        flex-direction: column;
+    }
+
+    .contacts-us__text {
+        margin-bottom: 30px;
+    }
+
+    .contacts-us__btn-link {
+        display: block;
+    }
+}
+
+@media(max-width:575px) {
+    .count__number {
+        font-size: 55px;
+    }
+}
+
+@media(max-width:530px) {
+    .sliders__inner {
+        .slider__title {
+            font-size: 43px;
+        }
+
+        .slider__descr {
+            font-size: 14px;
+            width: 100%;
+
+        }
+    }
+
+    .header {
+        min-height: 634px;
+    }
+}
+
+// menu__wrap
+@media(max-width:474px) {
+    .footer .menu__wrap {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:460px) {
+    .logo {
+        width: 50px;
+        height: 50px;
+
+        img {
+            object-fit: cover;
+        }
+    }
+
+    .sliders__inner {
+        br {
+            display: none;
+        }
+
+        .slider__title {
+            font-size: 29px;
+        }
+
+
+    }
+}
+
+@media(max-width:425px) {
+    .about-us__title {
+        font-size: 45px;
+        padding-right: 26px;
+    }
+
+    .product__video-title {
+        font-size: 18px;
+    }
+
+    .contacts-us__text {
+        font-size: 31px;
+    }
+
+}
+
+@media(max-width:409px) {
+    .footer__inner {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .social__info {
+        width: 100%;
+    }
+
+    .social__wrap,
+    .footer .menu__wrap,
+    .footer__wrap-links {
+        margin-right: 0;
+    }
+
+    .footer__wrap-links {
+        margin-bottom: 30px;
+    }
+
+    .footer__bottom-text {
+        padding: 0 15px;
+    }
+}
+
+@media(max-width:356px) {
+
+
+    .footer__logo {
+
+        bottom: 56px;
+    }
+}
